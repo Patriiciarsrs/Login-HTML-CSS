@@ -1,0 +1,39 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: bor;
+ list-style: none;
+ border: none;
+ outline: none;
+ text-decoration: none;
+}
+body{
+    background-color: blueviolet;
+    height: 100vh;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+} 
+input, button{
+    padding: 12px;
+    border-radius: 5px;
+}
+.group{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    width: 90px;
+}
+button:hover{
+    background-color: plum;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
